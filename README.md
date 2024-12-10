@@ -1,6 +1,16 @@
 # Smart_Marimba
 This repositry will contains all the codes of the Smart Marimba project, they will be updated regularly.
 
+## ArduinoReader
+This is a class containing all the Teensy/Arduino interactions, it can be used to read single values from the device, or read a queue of values.
+Additionally, it contains a function to initialize the serial communication, to estimate the sampling rate, and to close the serial communication.
+
+## HitDetection
+This code is used to detect the hit using computer vision, where a green object is used as a reference point. This is later used to train our model.
+
+## DistanceFinder
+This class contains all the methods used to find the distance given the two sensor time series.
+
 ## Data_Acquisition
 Files that start with this name refer to the Arduino/Teensy code that is used to record the data points.
 
