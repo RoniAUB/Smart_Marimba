@@ -11,6 +11,9 @@ This code is used to detect the hit using computer vision, where a green object 
 ## DistanceFinder
 This class contains all the methods used to find the distance given the two sensor time series.
 
+## MidiPlayer
+This class is used to convert the distance into musical notes it contains functions that allows us to save these notes as a midi file, or to send them as midi messages. Additionally we can use this class to play a midi file, or synthesize midi events directly.
+
 ## Data_Acquisition
 Files that start with this name refer to the Arduino/Teensy code that is used to record the data points.
 
